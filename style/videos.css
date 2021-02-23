@@ -1,0 +1,67 @@
+.main-article,
+.video{
+    border: 1px solid #cccccc;
+}
+
+.main-article,
+.videos{
+    margin: 3% auto;
+    width: 80%;
+}
+
+.main-article-description > h2,
+.video > h3{
+    margin: 0 0 2% 0;
+}
+
+.main-article-description > h2{
+    width: 60%;
+}
+
+.main-article > img{
+    width: 100%;
+}
+
+.main-article-description > img.play-button{
+    position: absolute;
+    float: right;
+    width: 5vw;
+    height: 5vw;
+    top: -25%;
+    right: 2%;
+}
+
+.main-article-description,
+.article-description{
+    padding: 2%;
+    position: relative;
+}
+
+.article-description > p,
+.article-description > h3{
+    margin-top: 2%;
+}
+
+.main-article-description,
+.video{
+    background: white;
+    margin: 0;
+}
+
+.video{
+    background: white;
+    width: 30%;
+    margin-top: 2%;
+}
+
+.video > img{
+    width: 100%;
+    height: 70%;
+}
+
+.videos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 7%;
+}
